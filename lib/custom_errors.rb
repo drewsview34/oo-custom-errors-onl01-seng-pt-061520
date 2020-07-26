@@ -9,6 +9,10 @@ class Person
     self.partner = person
     person.partner = self
   end
+  
+  # Add the following two lines:
+  class PartnerError < StandardError
+  end
 
 end
 
